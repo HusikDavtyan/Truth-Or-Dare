@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3ot-KA-zKv"; */
+"3ot-KA-zKv.text" = "Label";
+
+/* Class = "UILabel"; text = "Dare"; ObjectID = "MPI-rI-zQl"; */
+"MPI-rI-zQl.text" = "Dare";
+
+/* Class = "UIButton"; configuration.title = "Truth"; ObjectID = "RWG-V2-PHp"; */
+"RWG-V2-PHp.configuration.title" = "Truth";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RWG-V2-PHp"; */
+"RWG-V2-PHp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "TXS-Se-2sk"; */
+"TXS-Se-2sk.text" = "Or";
+
+/* Class = "UIButton"; configuration.title = "Play"; ObjectID = "Y8n-FE-SCz"; */
+"Y8n-FE-SCz.configuration.title" = "Play";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y8n-FE-SCz"; */
+"Y8n-FE-SCz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Classik"; ObjectID = "as5-ta-UDx"; */
+"as5-ta-UDx.configuration.subtitle" = "Classik";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "as5-ta-UDx"; */
+"as5-ta-UDx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Dare"; ObjectID = "crn-aw-FGM"; */
+"crn-aw-FGM.configuration.title" = "Dare";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "crn-aw-FGM"; */
+"crn-aw-FGM.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Change Language"; ObjectID = "gNU-ti-r6A"; */
+"gNU-ti-r6A.configuration.title" = "Change Language";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "gNU-ti-r6A"; */
+"gNU-ti-r6A.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gbL-MX-nnA"; */
+"gbL-MX-nnA.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hsA-jU-CSp"; */
+"hsA-jU-CSp.text" = "Label";
+
+/* Class = "UILabel"; text = "Truth"; ObjectID = "pmi-3P-eP9"; */
+"pmi-3P-eP9.text" = "Truth";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iUX-Zf-dRh"; */
+"iUX-Zf-dRh.normalTitle" = "Ժամանցային Ռեժիմ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nXy-NW-DHq"; */
+"nXy-NW-DHq.normalTitle" = "Թեժ Ռեժիմ";

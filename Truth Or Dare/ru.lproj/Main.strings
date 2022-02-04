@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "2Xb-Ss-VKd"; */
+"2Xb-Ss-VKd.configuration.title" = "English";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Xb-Ss-VKd"; */
+"2Xb-Ss-VKd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3ot-KA-zKv"; */
+"3ot-KA-zKv.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Clasic"; ObjectID = "7sa-go-gav"; */
+"7sa-go-gav.configuration.title" = "Классика";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7sa-go-gav"; */
+"7sa-go-gav.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "KVS-E1-lEG"; */
+"KVS-E1-lEG.configuration.title" = "English";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "KVS-E1-lEG"; */
+"KVS-E1-lEG.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Dare"; ObjectID = "MPI-rI-zQl"; */
+"MPI-rI-zQl.text" = "Dare";
+
+/* Class = "UIButton"; configuration.title = "Truth"; ObjectID = "RWG-V2-PHp"; */
+"RWG-V2-PHp.configuration.title" = "Truth";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RWG-V2-PHp"; */
+"RWG-V2-PHp.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "TXS-Se-2sk"; */
+"TXS-Se-2sk.text" = "Or";
+
+/* Class = "UIButton"; configuration.title = "Play"; ObjectID = "Y8n-FE-SCz"; */
+"Y8n-FE-SCz.configuration.title" = "Play";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y8n-FE-SCz"; */
+"Y8n-FE-SCz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Dare"; ObjectID = "crn-aw-FGM"; */
+"crn-aw-FGM.configuration.title" = "Dare";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "crn-aw-FGM"; */
+"crn-aw-FGM.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Group"; ObjectID = "dP4-tV-XCx"; */
+"dP4-tV-XCx.configuration.title" = "Group";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dP4-tV-XCx"; */
+"dP4-tV-XCx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "English"; ObjectID = "dhh-WP-mb2"; */
+"dhh-WP-mb2.configuration.title" = "English";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dhh-WP-mb2"; */
+"dhh-WP-mb2.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Truth"; ObjectID = "pmi-3P-eP9"; */
+"pmi-3P-eP9.text" = "Truth";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iUX-Zf-dRh"; */
+"iUX-Zf-dRh.normalTitle" = "Развлекательный Режим";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nXy-NW-DHq"; */
+"nXy-NW-DHq.normalTitle" = "Горячий Режим";

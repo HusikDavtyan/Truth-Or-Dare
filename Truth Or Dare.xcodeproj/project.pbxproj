@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE051BB727A8792F002FC38B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE051BB627A8792E002FC38B /* MenuViewController.swift */; };
+		CE571FB527721F83000B1887 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE571FB427721F83000B1887 /* MainViewController.swift */; };
+		CE571FB727721FA0000B1887 /* PartyModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE571FB627721FA0000B1887 /* PartyModeViewController.swift */; };
+		CE571FC02777A6C5000B1887 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE571FC22777A6C5000B1887 /* Localizable.strings */; };
+		CE6C054A2768A1A7000A6F09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C05492768A1A7000A6F09 /* AppDelegate.swift */; };
+		CE6C054C2768A1A7000A6F09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C054B2768A1A7000A6F09 /* SceneDelegate.swift */; };
+		CE6C054E2768A1A7000A6F09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C054D2768A1A7000A6F09 /* ViewController.swift */; };
+		CE6C05512768A1A7000A6F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6C054F2768A1A7000A6F09 /* Main.storyboard */; };
+		CE6C05532768A1AF000A6F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6C05522768A1AF000A6F09 /* Assets.xcassets */; };
+		CE6C05562768A1AF000A6F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6C05542768A1AF000A6F09 /* LaunchScreen.storyboard */; };
+		CEA82E4C2792229500B28179 /* HoteModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA82E4B2792229400B28179 /* HoteModeViewController.swift */; };
+		E6AC63E3D78738574B331AAC /* Pods_Truth_Or_Dare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82223ECAF0972D188B9B3F15 /* Pods_Truth_Or_Dare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82223ECAF0972D188B9B3F15 /* Pods_Truth_Or_Dare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Truth_Or_Dare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C868FAA72FEC690C5D292D1F /* Pods-Truth Or Dare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truth Or Dare.release.xcconfig"; path = "Target Support Files/Pods-Truth Or Dare/Pods-Truth Or Dare.release.xcconfig"; sourceTree = "<group>"; };
+		CE051BB627A8792E002FC38B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "Truth Or Dare/Menu/MenuViewController.swift"; sourceTree = SOURCE_ROOT; };
+		CE571FB427721F83000B1887 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE571FB627721FA0000B1887 /* PartyModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyModeViewController.swift; sourceTree = "<group>"; };
+		CE571FB82777A063000B1887 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CE571FB92777A063000B1887 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CE571FBD2777A510000B1887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		CE571FC12777A6C5000B1887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE571FC42777A6C9000B1887 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE6C05462768A1A7000A6F09 /* Truth Or Dare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth Or Dare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6C05492768A1A7000A6F09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6C054B2768A1A7000A6F09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE6C054D2768A1A7000A6F09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE6C05502768A1A7000A6F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6C05522768A1AF000A6F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6C05552768A1AF000A6F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6C05572768A1AF000A6F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA82E412789CF3200B28179 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Main.strings; sourceTree = "<group>"; usesTabs = 0; };
+		CEA82E422789CF3200B28179 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CEA82E432789CF3200B28179 /* hy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hy; path = hy.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CEA82E4B2792229400B28179 /* HoteModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoteModeViewController.swift; sourceTree = "<group>"; };
+		F6DD96C2D9597F376228581E /* Pods-Truth Or Dare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Truth Or Dare.debug.xcconfig"; path = "Target Support Files/Pods-Truth Or Dare/Pods-Truth Or Dare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6C05432768A1A7000A6F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AC63E3D78738574B331AAC /* Pods_Truth_Or_Dare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CE93977D01BAC0B2264F61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD96C2D9597F376228581E /* Pods-Truth Or Dare.debug.xcconfig */,
+				C868FAA72FEC690C5D292D1F /* Pods-Truth Or Dare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A68062CB9CA79A4998F73886 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82223ECAF0972D188B9B3F15 /* Pods_Truth_Or_Dare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE051BBE27ABD129002FC38B /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CE051BB627A8792E002FC38B /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CE6C053D2768A1A7000A6F09 = {
+			isa = PBXGroup;
+			children = (
+				CE6C05482768A1A7000A6F09 /* Truth Or Dare */,
+				CE6C05472768A1A7000A6F09 /* Products */,
+				22CE93977D01BAC0B2264F61 /* Pods */,
+				A68062CB9CA79A4998F73886 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6C05472768A1A7000A6F09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6C05462768A1A7000A6F09 /* Truth Or Dare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6C05482768A1A7000A6F09 /* Truth Or Dare */ = {
+			isa = PBXGroup;
+			children = (
+				CE051BBE27ABD129002FC38B /* Menu */,
+				CE6C05492768A1A7000A6F09 /* AppDelegate.swift */,
+				CE6C054B2768A1A7000A6F09 /* SceneDelegate.swift */,
+				CE6C054D2768A1A7000A6F09 /* ViewController.swift */,
+				CE571FB427721F83000B1887 /* MainViewController.swift */,
+				CE571FB627721FA0000B1887 /* PartyModeViewController.swift */,
+				CEA82E4B2792229400B28179 /* HoteModeViewController.swift */,
+				CE571FC22777A6C5000B1887 /* Localizable.strings */,
+				CE6C054F2768A1A7000A6F09 /* Main.storyboard */,
+				CE6C05522768A1AF000A6F09 /* Assets.xcassets */,
+				CE6C05542768A1AF000A6F09 /* LaunchScreen.storyboard */,
+				CE6C05572768A1AF000A6F09 /* Info.plist */,
+			);
+			path = "Truth Or Dare";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6C05452768A1A7000A6F09 /* Truth Or Dare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6C055A2768A1AF000A6F09 /* Build configuration list for PBXNativeTarget "Truth Or Dare" */;
+			buildPhases = (
+				ABA8914C764179E9637AB3C6 /* [CP] Check Pods Manifest.lock */,
+				CE6C05422768A1A7000A6F09 /* Sources */,
+				CE6C05432768A1A7000A6F09 /* Frameworks */,
+				CE6C05442768A1A7000A6F09 /* Resources */,
+				7F2E78672FDDB2C1ABC11A26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Truth Or Dare";
+			productName = "Truth Or Dare";
+			productReference = CE6C05462768A1A7000A6F09 /* Truth Or Dare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6C053E2768A1A7000A6F09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE6C05452768A1A7000A6F09 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CE6C05412768A1A7000A6F09 /* Build configuration list for PBXProject "Truth Or Dare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				hy,
+			);
+			mainGroup = CE6C053D2768A1A7000A6F09;
+			productRefGroup = CE6C05472768A1A7000A6F09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6C05452768A1A7000A6F09 /* Truth Or Dare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6C05442768A1A7000A6F09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6C05562768A1AF000A6F09 /* LaunchScreen.storyboard in Resources */,
+				CE571FC02777A6C5000B1887 /* Localizable.strings in Resources */,
+				CE6C05532768A1AF000A6F09 /* Assets.xcassets in Resources */,
+				CE6C05512768A1A7000A6F09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F2E78672FDDB2C1ABC11A26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Truth Or Dare/Pods-Truth Or Dare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Truth Or Dare/Pods-Truth Or Dare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Truth Or Dare/Pods-Truth Or Dare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA8914C764179E9637AB3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Truth Or Dare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6C05422768A1A7000A6F09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE571FB527721F83000B1887 /* MainViewController.swift in Sources */,
+				CE6C054E2768A1A7000A6F09 /* ViewController.swift in Sources */,
+				CE571FB727721FA0000B1887 /* PartyModeViewController.swift in Sources */,
+				CE051BB727A8792F002FC38B /* MenuViewController.swift in Sources */,
+				CEA82E4C2792229500B28179 /* HoteModeViewController.swift in Sources */,
+				CE6C054A2768A1A7000A6F09 /* AppDelegate.swift in Sources */,
+				CE6C054C2768A1A7000A6F09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE571FC22777A6C5000B1887 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE571FC12777A6C5000B1887 /* en */,
+				CE571FC42777A6C9000B1887 /* ru */,
+				CEA82E432789CF3200B28179 /* hy */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CE6C054F2768A1A7000A6F09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C05502768A1A7000A6F09 /* Base */,
+				CE571FB82777A063000B1887 /* ru */,
+				CE571FBD2777A510000B1887 /* en */,
+				CEA82E412789CF3200B28179 /* hy */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6C05542768A1AF000A6F09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6C05552768A1AF000A6F09 /* Base */,
+				CE571FB92777A063000B1887 /* ru */,
+				CEA82E422789CF3200B28179 /* hy */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6C05582768A1AF000A6F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6C05592768A1AF000A6F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6C055B2768A1AF000A6F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DD96C2D9597F376228581E /* Pods-Truth Or Dare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8QZM95ZKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Truth Or Dare/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truth Or Dare";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kecak.Truth-Or-Dare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE6C055C2768A1AF000A6F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C868FAA72FEC690C5D292D1F /* Pods-Truth Or Dare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8QZM95ZKM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Truth Or Dare/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Truth Or Dare";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kecak.Truth-Or-Dare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6C05412768A1A7000A6F09 /* Build configuration list for PBXProject "Truth Or Dare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C05582768A1AF000A6F09 /* Debug */,
+				CE6C05592768A1AF000A6F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6C055A2768A1AF000A6F09 /* Build configuration list for PBXNativeTarget "Truth Or Dare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6C055B2768A1AF000A6F09 /* Debug */,
+				CE6C055C2768A1AF000A6F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6C053E2768A1A7000A6F09 /* Project object */;
+}

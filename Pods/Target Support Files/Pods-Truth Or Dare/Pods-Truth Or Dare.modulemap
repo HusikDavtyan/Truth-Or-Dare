@@ -1,0 +1,6 @@
+framework module Pods_Truth_Or_Dare {
+  umbrella header "Pods-Truth Or Dare-umbrella.h"
+
+  export *
+  module * { export * }
+}
