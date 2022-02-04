@@ -47,6 +47,10 @@ class ViewController: UIViewController {
         truthLabel.text = "truth_key".localized()
         orLabel.text = "or_key".localized()
         dareLabel.text = "dare_key".localized()
+        
+        
+        
+        
     }
     //Animated
     override func viewDidAppear(_ animated: Bool) {

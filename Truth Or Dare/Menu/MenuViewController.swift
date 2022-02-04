@@ -20,6 +20,8 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         languagesView.alpha = 0
+        
+        
 
     }
     @IBAction func languagesButton(_ sender: Any) {
